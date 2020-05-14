@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "839712524914",
+    "firebase_url": "https://kutuphaneson.firebaseio.com",
+    "project_id": "kutuphaneson",
+    "storage_bucket": "kutuphaneson.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839712524914:android:47d068ace72b44aa5f90eb",
+        "android_client_info": {
+          "package_name": "com.example.kutuphaneson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839712524914-qaovclrep3v4ornme361ed1paj2a79re.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_euquQInJmf4vdRijfX4jlyXKuHfloKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839712524914-qaovclrep3v4ornme361ed1paj2a79re.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

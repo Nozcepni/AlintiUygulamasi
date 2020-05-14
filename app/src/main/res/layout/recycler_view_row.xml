@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/border_stroke"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/RecylertvKullaniciEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="37dp"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/RecylerBaslikKitap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/RecylerimageView"
+        android:layout_width="370dp"
+        android:layout_height="244dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toStartOf="@+id/RecylertvComment"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RecylertvKullaniciEmail"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+
+        android:id="@+id/RecylerBaslikKitap"
+        android:layout_width="249dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:paddingLeft="11dp"
+        android:text="textBaslik"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RecylertvKullaniciEmail">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/RecylerBaslikYazar"
+        android:layout_width="249dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:text="textBaslik"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RecylerBaslikKitap">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/RecylertvComment"
+        android:layout_width="300dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="24dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RecylerBaslikYazar">
+
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
